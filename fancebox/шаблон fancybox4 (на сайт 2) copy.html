@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<!-- Шаг 2 - подключить библиотеки -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+</head>
+
+<body>
+
+
+	<!-- Шаг 3 - подключить ссылки ****** -->
+
+	<h1 class="mt-12 mb-8 px-6 text-center text-lg md:text-2xl font-semibold">
+		Fancybox true modal
+	</h1>
+
+	<p class="text-center">
+		<a data-fancybox="trigger-modal" href="#modal-test"
+			class="px-6 pt-2 pb-3 text-xl bg-indigo-500 text-white rounded-full font-semibold">Click me</a>
+	</p>
+
+	<div id="modal-test" style="display: none" class="max-w-2xl">
+		<p class="mb-4 text-lg leading-8">
+			Interdum et malesuada fames ac ante ipsum primis in faucibus. Lorem ipsum
+			dolor sit amet, consectetur adipiscing elit. In a iaculis magna, vitae
+			lacinia metus. Etiam at lobortis ligula. Ut libero arcu, tincidunt in
+			sodales nec, sodales vitae neque. Donec condimentum, est ut viverra
+			efficitur, diam sem tempor lacus, a auctor mi nibh vehicula neque. Morbi
+			porttitor velit elit, hendrerit aliquam eros efficitur nec. Pellentesque
+			pretium, erat eget vehicula molestie, lorem elit mattis neque, vel volutpat
+			mi lacus sit amet quam. Quisque in malesuada tortor. Aliquam erat volutpat.
+			Quisque nisl risus, elementum non lorem in, ultrices aliquet est. Nullam
+			luctus finibus quam ut tempus. Nulla facilisi.
+		</p>
+		<p class="text-right">
+			<button data-fancybox-close data-value="1"
+				class="px-4 py-1 text-lg bg-indigo-500 text-white rounded-full font-semibold">
+				Close
+			</button>
+			<button data-fancybox-close data-value="0"
+				class="px-4 py-1 mr-2 text-lg border-2 text-indigo-500 border-indigo-500 rounded-full font-semibold">
+				Close
+			</button>
+		</p>
+	</div>
+
+	<!-- Шаг 1 - подключить библиотеки -->
+	<!-- ! С начала подключаем Jqury -->
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<!-- Затем подключаем ту библиотеку, которая её использует "jquery.fancybox.min.js" -->
+	<script>
+
+		Fancybox.bind("[data-fancybox]", {
+			on: {
+				load: (fancybox, slide) => {
+					console.log(`#${slide.index} slide is loaded!`);
+					console.log(
+						`This slide is selected: ${fancybox.getSlide().index === slide.index}`
+					);
+				},
+			},
+		});
+
+	</script>
+	<script>
+		Fancybox.bind('[data-fancybox="dialog"]', {
+			Toolbar: {
+				autoEnable: false,
+			},
+		});
+	</script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
