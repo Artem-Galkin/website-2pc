@@ -13,6 +13,8 @@
 		}
 		.news__inner{
 			display: block;
+
+
 		}
 		.news__slider{
 			min-width: 100%;
@@ -228,12 +230,14 @@
 @media (max-width: 375px) {
 	.header__email{
 		padding-right: 30px;
+		
 	}
 }
 
 @media (min-width: 700px) {
 	.menu ul{
 		display: block !important;
+		
 	}
 
 }
