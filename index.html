@@ -2,589 +2,595 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ГТД маркет - on-line магазин таможенных деклараций</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <!-- Подключаем jQuery модального окна-->
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <!-- Подключаем jQuery Slick слайдера-->
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/jquery.formstyler.css">
-    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
-    <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Магазин таможенных ДТ</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<!-- Подключаем jQuery модального окна-->
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<!-- Подключаем jQuery Slick слайдера-->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jquery.formstyler.css">
+	<link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+	<link rel="stylesheet" href="css/style.css">
 
-    <!-- Может находится под основным файлом сss - style.css -->
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/!popup-jquery2/style2.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <link type="image/x-icon" rel="shortcut icon" href="/favicon.ico">
-    <link type="image/png" sizes="16x16" rel="icon" href="/favicon.ico.png">
-    <link type="image/png" sizes="32x32" rel="icon" href="/favicon.ico.png">
-    <link type="image/png" sizes="96x96" rel="icon" href="/favicon.ico.png">
-    <link type="image/png" sizes="120x120" rel="icon" href="/favicon.ico.png">
-    <link type="image/png" sizes="192x192" rel="icon" href="/favicon.ico.png">
+	<!-- Может находится под основным файлом сss - style.css -->
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/!popup-jquery2/style2.css">
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link type="image/x-icon" rel="shortcut icon" href="/favicon.ico">
+	<link type="image/png" sizes="16x16" rel="icon" href="/favicon.ico.png">
+	<link type="image/png" sizes="32x32" rel="icon" href="/favicon.ico.png">
+	<link type="image/png" sizes="96x96" rel="icon" href="/favicon.ico.png">
+	<link type="image/png" sizes="120x120" rel="icon" href="/favicon.ico.png">
+	<link type="image/png" sizes="192x192" rel="icon" href="/favicon.ico.png">
+
 
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__top">
-            <div id="Главное" class="container">
-                <div class="header__contacts">
-                    <a class="header__phone" href="tel:+79671005030">+7 (967) 100 50 30</a>
-                    <a class="header__email" href="#">info@gtd.market</a>
-                    <!-- В первой части строки указывается команда для кнопки-->
-                    <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Бесплатная
-                        консультация</a>
-                </div>
-            </div>
-        </div>
-        <div class="header__content">
-            <div class="container">
-                <div class="header__content-inner">
-                    <div class="header__logo">
-                        <a href="#">
-                            <img src="img/logo.png" alt="">
-                        </a>
-                    </div>
+	<header class="header">
+		<div class="header__top">
+			<div id="Главное" class="container">
+				<div class="header__contacts">
+					<a class="header__phone" href="tel:+79671005030">+7 (967) 100 50 30</a>
+					<a class="header__email" href="#">info@gtd.market</a>
+					<!-- В первой части строки указывается команда для кнопки-->
+					<a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Бесплатная
+						консультация</a>
+				</div>
+			</div>
+		</div>
+		<div class="header__content">
+			<div class="container">
+				<div class="header__content-inner">
+					<div class="header__logo">
+						<a href="#">
+							<img src="img/logo.png" alt="">
+						</a>
+					</div>
 
-                    <nav class="menu">
-                        <div class="header__btn-menu">
-                            <span class="icon-bars"></span>
-                        </div>
-                        <ul>
-                            <li><a href="#Главное">Главное</a></li>
-                            <li><a href="#Услуги">Услуги</a></li>
-                            <li><a href="#О компании">О компании</a></li>
-                            <li><a href="#Аутсорсинг ВЭД">Аутсорсинг ВЭД</a></li>
-                            <li><a href="#Магазин ДТ">Магазин ДТ</a></li>
-                            <li><a href="#Контакты">Контакты</a></li>
-                        </ul>
+					<nav class="menu">
+						<div class="header__btn-menu">
+							<span class="icon-bars"></span>
+						</div>
+						<ul>
+							<li><a href="#Главное">Главное</a></li>
+							<li><a href="#Услуги">Услуги</a></li>
+							<li><a href="#О компании">О компании</a></li>
+							<li><a href="#Аутсорсинг ВЭД">Аутсорсинг ВЭД</a></li>
+							<li><a href="#Магазин ДТ">Магазин ДТ</a></li>
+							<li><a href="#Контакты">Контакты</a></li>
+						</ul>
 
-                    </nav>
-
-                </div>
-            </div>
-        </div>
-    </header>
-    <section class="slider">
-        <div class="container">
-            <div class="slider__inner">
-                <div class="slider__item">
-                    <div class="slider__item-content">
-                        <div class="slider__title">
-                            ТАМОЖЕННОЕ ОФОРМЛЕНИЕ
-                        </div>
-                            
-                        <div class="slider__text">
-                            ГТД маркет имеет большой опыт таможенного оформления товаров на всех <br> основных воздушных, морских, автомобильных и  железнодорожных <br> терминалах России
-                        </div>
-                        <a data-fancybox data-src="#modal1" href="javascript:;" class="slider__btn default-btn">
-                            Оформить заявку
-                        </a>
-                    </div>
-                </div>
+					</nav>
 
 
-                <div class="slider__item">
-                    <div class="slider__item-content">
-                        <div class="slider__title">
-                            МЕЖДУНАРОДНАЯ ЛОГИСТИКА
-                        </div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="slider">
+		<div class="container">
+			<div class="slider__inner">
+				<div class="slider__item">
+					<div class="slider__item-content">
+						<div class="slider__title">
+							ТАМОЖЕННОЕ ОФОРМЛЕНИЕ
+						</div>
 
-                        <div class="slider__text">
-                            Для разных отраслей промышленности и сфер бизнеса мы предлагаем  только отработанные <br> логистические схемы  транспортировки грузов в соответствии   с <br> индивидуальными условиями для каждого клиента
-                        </div>
-                        <a data-fancybox data-src="#modal1" href="javascript:;" class="slider__btn default-btn">
-                            Оформить заявку
-                        </a>
-                    </div>
-                </div>
+						<div class="slider__text">
+              ГТД маркет имеет большой опыт таможенного оформления товаров на всех <br> основных воздушных, морских, автомобильных и  железнодорожных <br> терминалах России
+						</div>
+						<a data-fancybox data-src="#modal1" href="javascript:;" class="slider__btn default-btn">
+							Оформить заявку
+						</a>
+					</div>
+				</div>
 
 
 
-                <div class="slider__item">
-                    <div class="slider__item-content">
-                        <div class="slider__title">
-                            АУТСОРСИНГ ВЭД
-                        </div>
+				<div class="slider__item">
+					<div class="slider__item-content">
+						<div class="slider__title">
+							МЕЖДУНАРОДНАЯ ЛОГИСТИКА
+						</div>
 
-                        <div class="slider__text">
-                            ГТД маркет специализируется на предоставлении полного комплекса услуг в сфере ВЭД. <br> Лояльная ценовая
-                            политика, позволяющая удовлетворять интересы малых и <br>крупных предприятий.
-                        </div>
-                        <a data-fancybox data-src="#modal1" href="javascript:;" class="slider__btn default-btn">
-                            Оформить заявку
-                        </a> 
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="services">
-        <div class="container">
-            <div class="services__top">
-                <div class="services__title-box">
-                    <div id="Услуги" class="services__title">
-                        Наши услуги
-                    </div>
-                    <div class="services__text">
-                        
-                    </div>
-
-                </div>
-                <div class="services__btn">
-                    <a href="#">
-                        Показать все услуги
-                    </a>
-                </div>
-            </div>
-            <div class=" services__items">
-                <div class="services__item">
-
-                    <img src="img/services-1.png" alt="">
-                    <div class="services__item-title">
-                        Комплексное таможенное <br> оформление
-                    </div>
-                    <div class="services__item-text">
-                        Оказываем полный комплекс услуг по таможенному оформлению товаров для различных сфер
-                        бизнеса и отраслей промышленности. В своей деятельности компания реализует принципы
-                        таможенного оформления, сроков логистических операций, соблюдения норм российского и
-                        международного законодательства.
-                    </div>
-                    <div class="services__item-btn">
-                        <a class="services__item-link" href="#">Подробнее</a>
-                        <a data-fancybox data-src="#modal2" href="javascript:;" class="slider__btn default-btn">
-                            Оформить заявку
-                        </a>
-                    </div>
-                </div>
-
-                <div class="services__item">
-                    <img src="img/services-2.png" alt="">
-                    <div class="services__item-title">
-                        Международная и региональная логистика
-                    </div>
-                    <div class="services__item-text">
-                        Оказываем полный комплекс транспортно-логистических услуг, предлагая своим клиентам
-                        только качественные услуги. За многолетний опыт работы в области транспортной логистики
-                        было разработано и реализовано большое количество разных эффективных логистических
-                        маршрутов транспортировки негабаритных и тяжеловесных грузов.
-                    </div>
-                    <div class="services__item-btn">
-                        <a class="services__item-link" href="#">Подробнее</a>
-                        <a data-fancybox data-src="#modal2" href="javascript:;" class="slider__btn default-btn">
-                            Оформить заявку
-                        </a>
-                    </div>
-
-                </div>
-
-                <div class="services__item">
-                    <img src="img/services-3.png" alt="">
-                    <div class="services__item-title">
-                        Аутсорсинг ВЭД
-                    </div>
-
-                    <div class="services__item-text">
-                        <br>
-                    
-                        Квалифицированные специалисты оказывают полный комплекс консультационных услуг по вопросам таможенного оформления, предварительного согласования условий поставки, процедур и методов декларирования товаров таможенным органам. Классификации товаров согласно ТН ВЭД ЕАЭС.   
-                    </div>
-                    <div class="services__item-btn">
-                        <a class="services__item-link" href="#">Подробнее</a>
-                        <a data-fancybox data-src="#modal2" href="javascript:;" class="slider__btn default-btn">
-                            Оформить заявку
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="about">
-        <div class="container">
-            <div class="about__inner">
-                <div id="О компании" class="about__title">О компании
-
-                </div>
-
-                <div class="about__text">
-                    Компания ГТД маркет предлагает клиентам полный комплекс таможенных и логистических услуг. За многолетний опыт работы ГТД маркет заработала имидж организованной и надежной компании, которая серьезно и профессионально подходит к решению любых логистических задач.
-                </div>
-                <a data-fancybox data-src="#modal" href="javascript:;" class="about__btn default-btn">
-                    Узнать больше
-                </a>
-            </div>
-
-
-        </div>
-
-    </section>
-
-    <section class="form">
-        <div id="Аутсорсинг ВЭД" class="container">
-            <div class="form__inner">
-                <div class="form__content">
-                    <div class="form__title-box">
-                        <div class="form__title">
-                            Аутсорсинг ВЭД 
-                        </div>
-                        <div class="form__text">
-                             
-                        </div>
-
-                    </div>
-
-                    <div class="form__box">
-                        <form>
-                            <div class="form__box-inner">
-                                <div class="form__box-left">
-                                    <label>
-                                        E-mail
-                                        <input type="text">
-                                    </label>
-                                    <label>
-                                        Контактный телефон
-                                        <input type="text">
-                                    </label>
-                                    <label>
-                                        ФИО
-                                        <input type="text">
-                                    </label>
-
-                                    </label>
-                                    Таможенная процедура
-                                    <select>
-                                        <option>-------</option>
-                                        <option>Экспорт</option>
-                                        <option>Выпуск для внутреннего потребления</option>
-                                        <option>Таможенный транзит</option>
-                                        <option>Таможенный склад</option>
-                                        <option>Переработка на таможенной территории</option>
-                                        <option>Переработка вне таможенной территории</option>
-                                        <option>Переработка для внутреннего потребления</option>
-                                        <option>Свободной таможенной зоны</option>
-                                        <option>Свободного склада</option>
-                                        <option>Временного ввоза(допуска)</option>
-                                        <option>Временного вывоза</option>
-                                        <option>Реимпорта</option>
-                                        <option>Реэкспорта</option>
-                                        <option>Беспошлиной торговли</option>
-                                        <option>Уничтожения</option>
-                                        <option>Отказа в пользу государства</option>
-                                        <option>Специальная таможенная процедура</option>
-                                        <option>Карнет АТА</option>
-                                        <option>Отказа в пользу государства</option>
-                                        <option>Предварительное решение о классификации товаров</option>
-
-                                    </select>
-                                    </label>
-
-                                </div>
-
-                                <div class="form__box-right">
-                                    <label>
-                                        Сообщение
-                                        <textarea></textarea>
-                                    </label>
-                                    <button class="default-btn" type="submit">Оставить сообщение</button>
-
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
+						<div class="slider__text">
+							Для разных отраслей промышленности и сфер бизнеса мы предлагаем  только отработанные <br> логистические схемы  транспортировки грузов в соответствии   с <br> индивидуальными условиями для каждого клиента
+						</div>
+						<a data-fancybox data-src="#modal1" href="javascript:;" class="slider__btn default-btn">
+							Оформить заявку
+						</a>
+					</div>
+				</div>
 
 
 
-    <section class="advantages">
-        <div class="container">
-            <div class="advantages__inner">
-                <div class="advantages__item">
-                    <div class="advantages__title">
-                        Свидетельство о включении в реестр таможенных представителей ФТС РФ
-                    </div>
-                    <div class="advantages__text">
-                        Мы используем современные
+
+				<div class="slider__item">
+					<div class="slider__item-content">
+						<div class="slider__title">
+							АУТСОРСИНГ ВЭД
+						</div>
+
+						<div class="slider__text">
+							ГТД маркет специализируется на предоставлении полного комплекса услуг в сфере ВЭД. <br> Лояльная ценовая политика, позволяющая удовлетворять интересы малых и <br>крупных предприятий
+						</div>
+						<a data-fancybox data-src="#modal1" href="javascript:;" class="slider__btn default-btn">
+							Оформить заявку
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="services">
+		<div class="container">
+			<div class="services__top">
+				<div class="services__title-box">
+					<div id="Услуги" class="services__title">
+						Наши услуги
+					</div>
+					<div class="services__text">
+						-----------------------
+					</div>
+
+				</div>
+				<div class="services__btn">
+					<a href="#">
+						Показать все услуги
+					</a>
+				</div>
+			</div>
+			<div class=" services__items">
+				<div class="services__item">
+
+					<img src="img/services-1.png" alt="">
+					<div class="services__item-title">
+						Комплексное таможенное <br> оформление
+					</div>
+					<div class="services__item-text">
+						Оказываем полный комплекс услуг по таможенному оформлению товаров для различных сфер
+						бизнеса и отраслей промышленности. В своей деятельности компания реализует принципы
+						таможенного оформления, сроков логистических операций, соблюдения норм российского и
+						международного законодательства.
+					</div>
+					<div class="services__item-btn">
+						<a class="services__item-link" href="#">Подробнее</a>
+						<a data-fancybox data-src="#modal2" href="javascript:;" class="slider__btn default-btn">
+							Оформить заявку
+						</a>
+					</div>
+				</div>
+
+				<div class="services__item">
+					<img src="img/services-2.png" alt="">
+					<div class="services__item-title">
+						Международная и региональная логистика
+					</div>
+					<div class="services__item-text">
+						Оказываем полный комплекс транспортно-логистических услуг, предлагая своим клиентам
+						только качественные услуги. За многолетний опыт работы в области транспортной логистики
+						было разработано и реализовано большое количество разных эффективных логистических
+						маршрутов транспортировки негабаритных и тяжеловесных грузов.
+					</div>
+					<div class="services__item-btn">
+						<a class="services__item-link" href="#">Подробнее</a>
+						<a data-fancybox data-src="#modal2" href="javascript:;" class="slider__btn default-btn">
+							Оформить заявку
+						</a>
+					</div>
+
+				</div>
+
+				<div class="services__item">
+					<img src="img/services-3.png" alt="">
+					<div class="services__item-title">
+						Аутсорсинг ВЭД
+					</div>
+
+					<div class="services__item-text">
+						<br>
+						<br>
+					 Квалифицированные специалисты оказывают полный комплекс консультационных услуг по вопросам таможенного оформления, предварительного согласования условий поставки, процедур и методов декларирования товаров таможенным органам. Классификации товаров согласно ТН ВЭД ЕАЭС. 
+					</div>
+					<div class="services__item-btn">
+						<a class="services__item-link" href="#">Подробнее</a>
+						<a data-fancybox data-src="#modal2" href="javascript:;" class="slider__btn default-btn">
+							Оформить заявку
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about">
+		<div class="container">
+			<div class="about__inner">
+				<div id="О компании" class="about__title">О компании
+
+				</div>
+
+				<div class="about__text">
+				Компания ГТД маркет предлагает клиентам полный комплекс таможенных и логистических услуг. За многолетний опыт работы ГТД маркет заработала имидж организованной и надежной компании, которая серьезно и профессионально подходит к решению любых логистических задач.
+				</div>
+				<a data-fancybox data-src="#modal" href="javascript:;" class="about__btn default-btn">
+					Узнать больше
+				</a>
+			</div>
+
+
+
+		</div>
+
+	</section>
+
+	<section class="form">
+		<div id="Аутсорсинг ВЭД" class="container">
+			<div class="form__inner">
+				<div class="form__content">
+					<div class="form__title-box">
+						<div class="form__title">
+							Аутсорсинг ВЭД
+						</div>
+						<div class="form__text">
+							
+						</div>
+
+					</div>
+
+					<div class="form__box">
+						<form>
+							<div class="form__box-inner">
+								<div class="form__box-left">
+									<label>
+										E-mail
+										<input type="text">
+									</label>
+									<label>
+										Контактный телефон
+										<input type="text">
+									</label>
+									<label>
+										ФИО
+										<input type="text">
+									</label>
+
+									</label>
+									Таможенная процедура
+									<select>
+										<option>-------</option>
+										<option>Экспорт</option>
+										<option>Выпуск для внутреннего потребления</option>
+										<option>Таможенный транзит</option>
+										<option>Таможенный склад</option>
+										<option>Переработка на таможенной территории</option>
+										<option>Переработка вне таможенной территории</option>
+										<option>Переработка для внутреннего потребления</option>
+										<option>Свободной таможенной зоны</option>
+										<option>Свободного склада</option>
+										<option>Временного ввоза(допуска)</option>
+										<option>Временного вывоза</option>
+										<option>Реимпорта</option>
+										<option>Реэкспорта</option>
+										<option>Беспошлиной торговли</option>
+										<option>Уничтожения</option>
+										<option>Отказа в пользу государства</option>
+										<option>Специальная таможенная процедура</option>
+										<option>Карнет АТА</option>
+										<option>Отказа в пользу государства</option>
+										<option>Предварительное решение о классификации товаров</option>
+
+									</select>
+									</label>
+
+								</div>
+
+
+								<div class="form__box-right">
+									<label>
+										Сообщение
+										<textarea></textarea>
+									</label>
+									<button class="default-btn" type="submit">Оставить сообщение</button>
+
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+
+
+
+	<section class="advantages">
+		<div class="container">
+			<div class="advantages__inner">
+				<div class="advantages__item">
+					<div class="advantages__title">
+						Свидетельство о включении в реестр таможенных представителей ФТС РФ
+					</div>
+					<div class="advantages__text">
+						Мы используем современные
                     методы декларирования и
                     различные IT-решения при подготовке документов, что существенно сокращает время,
                     необходимое для совершения процедуры таможенного оформления.
-                    </div>
-                </div>
-
-                <div class="advantages__item">
-                    <div class="advantages__title">
-                        Прямые договора с крупнейшими международными и внутренними перевозчиками
-                    </div>
-                    <div class="advantages__text">
-                        Мы успешно занимаемся международыми грузовыми перевозками, решаем задачи любой сложности, опираясь на многолетний опыт работы в сфере доставки грузов
-                    </div>
-                </div>
-
-                <div class="advantages__item">
-                    <div class="advantages__title">
-                        Большой опыт в таможенном сопровождении
-                    </div>
-                    <div class="advantages__text">
-                        Большой опыт наших сотрудников компании и налаженные связи позволяют оказывать широкий спектр услуг, в короткие сроки.
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="news">
-        <div id="Магазин ДТ" class="container">
-
-            <div class="news__top">
-                <div class="news__title-box">
-                    <div class="news__title">
-                        Магазин ДТ
-                    </div>
-                    <div class="news__text">
-                        В нашем on-line магазине Вы будете удивлены приятными ценами, отличным качеством макетов таможенных деклараций!
-                    </div>
-                </div>
-
-                <div class="news__btn">
-                    <a href="#">
-                        Выбрать ДТ
-                    </a>
-                </div>
-            </div>
-
-
-            <div class=" news__inner">
-
-                <div class="news__slider">
-                    <div class="news__slider-inner">
-
-                        <div class="news__slider-item">
-                            <div class="news__slider-title">
-                                Макет таможенной декларации включает в себя операции:
-                            </div>
-                            <div class="news__slider-text">
-                                Официальный представитель Евразийской экономической комиссии Ия Малкина
-                                выступила перед журналистами. Она рассказала о подготовке Евразийского
-                                экономического форума и ответила на вопросы об экономической ситуации в ЕАЭС в
-                                условиях санкционного давления и принимаемых мерах по импортозамещению.
-                            </div>
-                            <div class="news__slider-author">
-                                Пресс-служба ЕЭК
-                            </div>
-                        </div>
-
-                        <div class="news__slider-item">
-                            <div class="news__slider-title">
-                                Макет таможенной декларации включает в себя операции:
-                            </div>
-                            <div class="news__slider-text">
-                                Официальный представитель Евразийской экономической комиссии Ия Малкина
-                                выступила перед журналистами. Она рассказала о подготовке Евразийского
-                                экономического форума и ответила на вопросы об экономической ситуации в ЕАЭС в
-                                условиях санкционного давления и принимаемых мерах по импортозамещению.
-                            </div>
-                            <div class="news__slider-author">
-                                Пресс-служба ЕЭК
-                            </div>
-                        </div>
-
-                        <div class="news__slider-item">
-                            <div class="news__slider-title">
-                                Макет таможенной декларации включает в себя операции:
-                            </div>
-                            <div class="news__slider-text">
-                                Официальный представитель Евразийской экономической комиссии Ия Малкина
-                                выступила перед журналистами. Она рассказала о подготовке Евразийского
-                                экономического форума и ответила на вопросы об экономической ситуации в ЕАЭС в
-                                условиях санкционного давления и принимаемых мерах по импортозамещению.
-                            </div>
-                            <div class="news__slider-author">
-                                Пресс-служба ЕЭК
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
+					</div>
+				</div>
+
+				<div class="advantages__item">
+					<div class="advantages__title">
+						Прямые договора с крупнейшими международными и внутренними перевозчиками
+					</div>
+					<div class="advantages__text">
+						Мы успешно занимаемся международыми грузовыми перевозками, решаем задачи любой сложности, опираясь на многолетний опыт работы в сфере доставки грузов
+					</div>
+				</div>
+
+				<div class="advantages__item">
+					<div class="advantages__title">
+						Большой опыт в таможенном сопровождении
+					</div>
+					<div class="advantages__text">
+						ольшой опыт наших сотрудников компании и налаженные связи позволяют оказывать широкий спектр услуг, в короткие сроки.
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	
+	<section class="news">
+		<div id="Магазин ДТ" class="container">
+
+			<div class="news__top">
+				<div class="news__title-box">
+					<div class="news__title">
+						Магазин ДТ
+					</div>
+					<div class="news__text">
+						В нашем онлайн магазине Вы будете удивлены приятными ценами, отличным качеством макетов таможенных деклараций!
+					</div>
+				</div>
+
+				<div class="news__btn">
+					<a href="#">
+						Выбрать ДТ
+					</a>
+				</div>
+			</div>
+
+
 
+			<div class=" news__inner">
 
+				<div class="news__slider">
+					<div class="news__slider-inner">
 
+						<div class="news__slider-item">
+							<div class="news__slider-title">
+								Макет таможенной декларации состоит:
+							</div>
+							<div class="news__slider-text">
+								Товары с описанием
+							</div>
+							<div class="news__slider-author">
+								Формализованные документы
+							</div>
+						</div>
 
+						<div class="news__slider-item">
+							<div class="news__slider-title">
+								Макет таможенной декларации состоит:
+							</div>
+							<div class="news__slider-text">
+								Товары с описанием
+							</div>
+							<div class="news__slider-author">
+								Формализованные документы
+							</div>
+						</div>
 
+						<div class="news__slider-item">
+							<div class="news__slider-title">
+								Макет таможенной декларации состоит:
+							</div>
+							<div class="news__slider-text">
+								
+							</div>
+							<div class="news__slider-author">
+								Пресс-служба ЕЭК
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+
+
+
 
-                <a href="#" class="news__blog">
-                    <div class="news__images">
-                        <img src="img/news-1.jpg" alt="">
-                        <div class="news__date">Импортная декларация</div>
-                    </div>
-                    <div id="Магазин ДТ" class="news__blog-title">
-                        Дополнительные операции
-                    </div>
-                    <div class="news_blog-text">
-                        На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов,
-                        имеющих компетенции в таможенном оформлении и логистике
-                    </div>
-                </a>
-
-                <a href="#" class="news__blog">
-                    <div class="news__images">
-                        <img src="img/news-2.jpg" alt="">
-                        <div class="news__date">Экспортная декларация</div>
-                    </div>
-                    <div class="news__blog-title">
-                        Дополнительные операции
-                    </div>
-                    <div class="news_blog-text">
-                        
-                    </div>
-                </a>
-
-
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-
-
-
-
-
-
-    <footer class="footer">
-        <div class="footer__content">
-            <div class="container">
-                <div class="footer__inner">
-                    <div class="footer__info">
-                        <div class="footer__title">
-                            Связаться с нами
-                        </div>
-                        <div class="footer__text">
-                            Наши специалисты ответят на все интересующие Вас вопросы в режиме 24/7
-                        </div>
-                        <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Бесплатная
-                            консультация</a>
-
-                        <ul id="Контакты" class="footer__list">
-                            <li><a class="footer__phone" href="tel:+79671005030">+7 (967) 100 50 30</a></li>
-                            <li><a href="#">info@gtd.market</a></li>
-                            <li><a class="footer__adress" href="#">Москва, ул.Бутлерова 17, бизнес-центр «NEO GEO», офис. 3881</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="footer__map">
-                        <iframe height="250px"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2251.2690970333497!2d37.53925971608574!3d55.64952840741954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54d306106a1ad%3A0xf11e2728143a9422!2z0YPQuy4g0JHRg9GC0LvQtdGA0L7QstCwLCAxNywg0JzQvtGB0LrQstCwLCAxMTczNDI!5e0!3m2!1sru!2sru!4v1651155687099!5m2!1sru!2sru"
-                            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div class=footer__copy>
-        <div class="container">
-            <div class="copy__text">
-                © Template by Artem Galkin. Все права защищены.
-            </div>
-        </div>
-        </div>
-    </footer>
+
+
+
+
+				<a href="#" class="news__blog">
+					<div class="news__images">
+						<img src="img/news-1.jpg" alt="">
+						<div class="news__date">ИМ 40</div>
+					</div>
+					<div id="Магазин ДТ" class="news__blog-title">
+						Дополнительные операции c товарами и документами
+					</div>
+					<div class="news_blog-text">
+						<ul>
+                <li class="">Предварительный таможенный осмотр</li>
+                <li class="">Выдача груза на терминале</li>
+            </ul>
+					</div>
+				</a>
+
+				<a href="#" class="news__blog">
+					<div class="news__images">
+						<img src="img/news-2.jpg" alt="">
+						<div class="news__date">ЭК 10</div>
+					</div>
+					<div class="news__blog-title">
+						Дополнительные операции с товарами и документами
+					</div>
+					<div class="news_blog-text">
+						<ul>
+                <li class="">Предварительный таможенный осмотр</li>
+                <li class="">Выдача груза на терминале</li>
+            </ul>
+					</div>
+				</a>
+
+
+
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+
+
+
+
+
+
+
+
+	<footer class="footer">
+		<div class="footer__content">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__info">
+						<div class="footer__title">
+							Связаться с нами
+						</div>
+						<div class="footer__text">
+							Наши специалисты ответят на все интересующие Вас вопросы в режиме 24/7
+						</div>
+						<a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Бесплатная
+							консультация</a>
+
+
+						<ul id="Контакты" class="footer__list">
+							<li><a class="footer__phone" href="tel:+79671005030">+7 (967) 100 50 30</a></li>
+							<li><a href="#">info@gtd.market</a></li>
+							<li><a class="footer__adress" href="#">Москва, ул.Бутлерова 17, бизнес-центр «NEO GEO», офис. 3881</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer__map">
+						<iframe height="250px"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2251.2690970333497!2d37.53925971608574!3d55.64952840741954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54d306106a1ad%3A0xf11e2728143a9422!2z0YPQuy4g0JHRg9GC0LvQtdGA0L7QstCwLCAxNywg0JzQvtGB0LrQstCwLCAxMTczNDI!5e0!3m2!1sru!2sru!4v1651155687099!5m2!1sru!2sru"
+							style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div class=footer__copy>
+		<div class="container">
+			<div class="copy__text">
+				© Template by Artem Galkin. Все права защищены.
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+
+
+	<!-- Текс модального окна-->
 
+	<div style="display: none;" id="modal">
+		<form>
+			<input type="text" placeholder="ФИО">
+			<input type="text" placeholder="Ваш телефон">
+			<input type="text" placeholder="Ваш E-mail">
+			<input type="text" placeholder="Таможенная процедура">
+			<input type="text" placeholder="Наименование товара">
+			<input type="text" placeholder="Удобная дата для консультации">
+			<input type="text" placeholder="Удобные часы для консультации">
+			<input type="submit" value="Отправить">
+		</form>
+	</div>
 
 
-    <!-- Текс модального окна-->
+	<div style="display: none;" id="modal1">
+		<form>
+			<input type="text" placeholder="ФИО">
+			<input type="text" placeholder="Ваш телефон">
+			<input type="text" placeholder="Ваш E-mail">
+			<input type="text" placeholder="Таможенная процедура">
+			<input type="text" placeholder="Наименование вашего товара">
+			<input type="text" placeholder="Удобная дата для консультации">
+			<input type="text" placeholder="Удобные часы для консультации">
+			<input type="submit" value="Отправить">
+		</form>
+	</div>
 
-    <div style="display: none;" id="modal">
-        <form>
-            <input type="text" placeholder="ФИО">
-            <input type="text" placeholder="Ваш телефон">
-            <input type="text" placeholder="Ваш E-mail">
-            <input type="text" placeholder="Название вашей компании">
-            <input type="text" placeholder="Таможенная процедура">
-            <input type="text" placeholder="Наименование товара">
-            <input type="text" placeholder="Удобная дата для консультации">
-            <input type="text" placeholder="Удобные часы для консультации">
-            <input type="submit" value="Отправить">
-        </form>
-    </div>
 
-    <div style="display: none;" id="modal1">
-        <form>
-            <input type="text" placeholder="ФИО">
-            <input type="text" placeholder="Ваш телефон">
-            <input type="text" placeholder="Ваш E-mail">
-            <input type="text" placeholder="Название вашей компании">
-            <input type="text" placeholder="Таможенная процедура">
-            <input type="text" placeholder="Наименование товара">
-            <input type="text" placeholder="Удобная дата для консультации">
-            <input type="text" placeholder="Удобные часы для консультации">
-            <input type="submit" value="Отправить">
-        </form>
-    </div>
+	<div style="display: none;" id="modal2">
+		<form>
+			<input type="text" placeholder="ФИО">
+			<input type="text" placeholder="Ваш телефон">
+			<input type="text" placeholder="Ваш E-mail">
+			<input type="text" placeholder="Таможенная процедура">
+			<input type="text" placeholder="Наименование вашего товара">
+			<input type="text" placeholder="Удобная дата для консультации">
+			<input type="text" placeholder="Удобные часы для консультации">
+			<input type="submit" value="Отправить">
+		</form>
+	</div>
 
-    <div style="display: none;" id="modal2">
-        <form>
-            <input type="text" placeholder="ФИО">
-            <input type="text" placeholder="Ваш телефон">
-            <input type="text" placeholder="Ваш E-mail">
-            <input type="text" placeholder="Название вашей компании">
-            <input type="text" placeholder="Таможенная процедура">
-            <input type="text" placeholder="Наименование товара">
-            <input type="text" placeholder="Удобная дата для консультации">
-            <input type="text" placeholder="Удобные часы для консультации">
-            <input type="submit" value="Отправить">
-        </form>
-    </div>
 
-    <div style="display: none;" id="modal3">
-        <form>
-            <input type="text" placeholder="ФИО">
-            <input type="text" placeholder="Ваш телефон">
-            <input type="text" placeholder="Ваш E-mail">
-            <input type="text" placeholder="Название вашей компании">
-            <input type="text" placeholder="Таможенная процедура">
-            <input type="text" placeholder="Наименование товара">
-            <input type="text" placeholder="Удобная дата для консультации">
-            <input type="text" placeholder="Удобные часы для консультации">
-            <input type="submit" value="Отправить">
-        </form>
-    </div>
+	<div style="display: none;" id="modal3">
+		<form>
+			<input type="text" placeholder="ФИО">
+			<input type="text" placeholder="Ваш телефон">
+			<input type="text" placeholder="Ваш E-mail">
+			<input type="text" placeholder="Таможенная процедура">
+			<input type="text" placeholder="Наименование вашего товара">
+			<input type="text" placeholder="Удобная дата для консультации">
+			<input type="text" placeholder="Удобные часы для консультации">
+			<input type="submit" value="Отправить">
+		</form>
+	</div>
 
-    <div style="display: none;" id="modal4">
-        <form>
-            <input type="text" placeholder="ФИО">
-            <input type="text" placeholder="Ваш телефон">
-            <input type="text" placeholder="Ваш E-mail">
-            <input type="text" placeholder="Название вашей компании">
-            <input type="text" placeholder="Таможенная процедура">
-            <input type="text" placeholder="Наименование товара">
-            <input type="text" placeholder="Удобная дата для консультации">
-            <input type="text" placeholder="Удобные часы для консультации">
-            <input type="submit" value="Отправить">
-        </form>
-    </div>
+	<div style="display: none;" id="modal4">
+		<form>
+			<input type="text" placeholder="ФИО">
+			<input type="text" placeholder="Ваш телефон">
+			<input type="text" placeholder="Ваш E-mail">
+			<input type="text" placeholder="Таможенная процедура">
+			<input type="text" placeholder="Наименование вашего товара">
+			<input type="text" placeholder="Удобная дата для консультации">
+			<input type="text" placeholder="Удобные часы для консультации">
+			<input type="submit" value="Отправить">
+		</form>
+	</div>
 
 
 
@@ -597,35 +603,61 @@
 
 
 
-    <!-- Yandex.Metrika counter -->
-    <script
-        type="text/javascript"> (function (m, e, t, r, i, k, a) { m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) }; m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a) })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(88737760, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true, ecommerce: "dataLayer" }); </script>
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/88737760" style="position:absolute; left:-9999px;" alt="" /></div>
-    </noscript> <!-- /Yandex.Metrika counter -->
 
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
+   ym(88737760, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        trackHash:true,
+        ecommerce:"dataLayer"
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/88737760" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 
 
 
 
-    <!-- Подключаем jQuery модального окна-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Подключаем модальное окно Slick -->
-    <script src="js/jquery.fancybox.min.js"></script>
-    <!-- Подключаем собственный файл скриптов -->
-    <script src="js/main.js"></script>
 
 
 
-    <!-- Подключаем jQuery слайдера Slick-->
-    <script src=" https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <!-- Подключаем слайдер Slick -->
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.formstyler.min.js"></script>
-    <!-- Подключаем собственный файл скриптов -->
-    <script src="js/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Подключаем jQuery модального окна-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Подключаем модальное окно Slick -->
+	<script src="js/jquery.fancybox.min.js"></script>
+	<!-- Подключаем собственный файл скриптов -->
+	<script src="js/main.js"></script>
+
+
+
+
+	<!-- Подключаем jQuery слайдера Slick-->
+	<script src=" https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<!-- Подключаем слайдер Slick -->
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.formstyler.min.js"></script>
+	<!-- Подключаем собственный файл скриптов -->
+	<script src="js/main.js"></script>
+
 
 
 
@@ -635,4 +667,3 @@
 </body>
 
 </html>
-
